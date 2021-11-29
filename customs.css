@@ -1,0 +1,187 @@
+.titulo-1{
+    float: center;
+    margin-left: 33%;
+    color: white;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+
+
+
+
+
+}
+
+
+
+
+
+.subtitulo{
+    float: center;
+    margin-left: 38%;
+    color: white;
+    font-size: 20px;
+
+    
+
+
+    
+}
+
+
+.bot1{
+    float: center;
+    color: white;
+    margin-left: 2px;   
+    font-size: 15px;
+}
+
+
+.bot2{
+    float: center;
+    color: white;
+    margin-left: 2px; 
+    font-size: 15px;
+}
+
+
+.bot3{
+    float: center;
+    color: white;
+    margin-left: 2px;
+    font-size: 15px;
+}
+
+
+.salto{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 40px;
+
+
+}
+
+
+.texto-salto{
+    margin-left: 19%;
+    float: center;
+    font-size: 20px;
+    color: white;
+
+
+
+}
+
+.particion-titulo-1{
+font-size: 30px;
+color: black;
+margin-top: 4%;
+margin-left: 60px;
+
+
+}
+
+
+.particion-texto-1{
+    font-size: 20px;
+    color: grey;
+    margin-left: 60px;
+    
+
+
+
+
+}
+
+.texto-bot1{
+    color: white;
+    
+   
+
+
+
+}
+
+.btn-look{
+
+    border: 0px;
+    color: white;
+    font-size: 18px;
+    margin-top: 12px;
+    margin-left: 50px;
+    
+}
+
+
+.particion-titulo-2{
+    font-size: 30px;
+color: black;
+
+margin-top: 4%;
+
+
+
+}
+
+
+.particion-texto-2{
+    font-size: 20px;
+    color: grey;
+    
+
+
+
+
+}
+
+.texto-bot2{
+    color:white;
+    
+    
+
+
+    
+}
+
+
+.btn-download{
+    border: 0px;
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+.particion-titulo-3{
+    font-size: 30px;
+color: black;
+
+margin-top: 4%;
+
+
+
+}
+
+
+.particion-texto-3{
+    font-size: 20px;
+    color: grey;
+    margin-left: 5%;
+
+
+
+
+}
+
+.texto-bot3{
+    color: white;
+    
+
+
+    
+}
+
+.btn-servers{
+
+    border: 0px;
+    font-size: 18px;
+    margin-top: 12px;
+    
+}

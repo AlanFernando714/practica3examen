@@ -1,0 +1,139 @@
+<!DOCTYPE html>  <!--Carlos Flores Alan Fernando-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>semi proyect</title>
+    <link rel="stylesheet" href="customs.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <style>
+    #nombre{
+      font-size: 30px;
+      text-align: right;
+      color: white;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    </style>
+</head>
+<body>
+
+  <!--Ventana modal-->
+
+  <div class="modal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header" style="background-color:#C70039;"> 
+          <button id="close" type="button" class="btn btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body" style="font-size: 50px; color:#FFDC00; background-color: #C70039;">
+          <font align="center"><p>¡Bienvenido!</p></font>
+        </div>  
+        </div>
+      </div>
+    </div>
+
+ 
+    <!--Contenedor principal-->
+    <div class="container">
+        
+        <!--Fila del título-->
+        <div class="row">
+            <div class="col-md-12" style="background-color: #229CBF;"> <h1 id="nombre" ></h1> <br><br> <br>
+                <div class="titulo-1"><img src="img/fire.png" width="40px" height="40px"> CHAOTIC <font color="#1A4492">UNITED</font></div> <br>
+                 <div class="subtitulo">Welcome to Chaotic United</div> <br><br><br> <br>
+
+            </div> 
+               </div>
+               
+               <!--segunda fila o menú-->
+        <div class="row">
+            <div class="col-md-12" style="background-color: #043B4B;"><br>
+                <button type="button" class="btn btn-home" style="background-color: #043B4B; border: 0px;"onclick="mandar_1()"><div class="bot1">Home</div></button>
+                <button type="button" class="btn btn-form" style="background-color: #043B4B; border: 0px;"onclick="mandar_2()"><div class="bot2">Form</div></button>
+                <button type="button" class="btn btn-server" style="background-color: #043B4B; border: 0px;" onclick="mandar_3()"><div class="bot3">Servers</div></button><br>
+                <script>
+                function mandar_1(){
+                    location.href="index.html";
+
+
+                }
+                function mandar_2(){
+                    location.href="https://es.digitaltrends.com/videojuego/que-es-minecraft/";
+
+                    
+                }
+                function mandar_3(){
+                    location.href="https://minecraft.fandom.com/es/wiki/Servidor";
+
+                    
+                }
+
+                </script>
+                <br>
+            </div>
+              </div>
+
+              <!--Separación-->
+
+              <div class="salto" style="background-color: #FF6A0E;" ><br>
+            <div class="texto-salto">Dont miss the release of PokeMasters Saturday the 16th at 8pm GMT+0!</div><br>
+              </div><br><br>
+
+              
+              <!--Fila del menu final-->
+            <div class="row">
+                <div class="col-md-3 " style="background-color: white;">
+                    <div class="particion-titulo-1"><img src="img/correct.png" width="30px" height="30px">Minecraft registration</div>
+                    <div class="particion-texto-1">Register now and start discovering this game full of new things</div>
+                    <button type="button" class="btn btn-look" style=" background-color: #2D8CD3;" onclick="enviar_1()"><div class="texto-bot1">Look</div></button>
+                    <script>
+                        function enviar_1()
+                        {
+                          location.href="usuario.php";
+                               
+                        }
+
+                      </script>
+
+                </div>
+                
+                    <div class="col-md-3 offset-md-1">
+                        <div class="particion-titulo-3" style="background-color: white;"> <img src="img/Speed.png" width="30px" height="30px">Chaotic Launcher </div>
+                        <div class="particion-texto-3">You still don't buy minecraft? Don't worry, we have a launcher for you, made so you can enjoy the game</div>
+                        <button type="button" class="btn btn-download" style=" background-color: #2D8CD3;" onclick="enviar_2()"><div class="texto-bot2">Download it</div></button>
+                        <script>
+                            function enviar_2()
+                            {
+                              location.href="https://tlauncher.org/en/";
+                                   
+                            }
+
+                          </script>
+    
+                    </div>
+                    
+                        <div class="col-md-3 offset-md-1">
+                            <div class="particion-titulo-3" style="background-color: white;"> <img src="img/nube.png" width="30px" height="30px"> Servers</div>
+                            <div class="particion-texto-3">Exclusively for minecraft, we have work teams for servers that can be accessed by anyone who is part of our community</div>
+                            <button type="button" class="btn btn-servers" style=" background-color: #2D8CD3;" onclick="enviar_3()"><div class="texto-bot3">Servers</div></button>
+                            <script>
+                              function enviar_3()
+                              {
+                                location.href="https://minecraftservers.org/";
+                                     
+                              }
+
+                            </script>
+        
+                        </div>
+             </div>
+         
+              
+</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
